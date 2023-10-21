@@ -46,7 +46,10 @@ let mongoose = require('mongoose');
 
 
 
-mongoose.connect('mongodb://localhost:27017/db12').then((connection)=>{
+
+
+// mongoose.connect('mongodb://localhost:27017/db12').then((connection)=>{
+    mongoose.connect('mongodb+srv://ali:1234@cluster0.xht8ahs.mongodb.net/').then((connection)=>{
     
 let p = new Product();
 p.name = "DELL";
