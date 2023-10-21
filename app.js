@@ -94,7 +94,7 @@ app.post('/create-user', async (req, res)=>{
 
 })
 
-app.use(express.static('./server/build'))
+app.use(express.static('./build'))
 
 app.listen(9080, ()=>{
     console.log('serv erchaling ')
